@@ -1,0 +1,28 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001340155",
+        "name": "Oliveira Kaja 8.1 x 31.50",
+        "description": "Luan Oliveira Pro Skateboard Deck. 7-ply Canadian hard Rock Maple.",
+        "price": 59.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+        "image": "DP0709201205510679M.jpg"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001600425",
+        "name": "Penny Cheech and Chong's 50th Gold Foil 8.00 x 31.4",
+        "description": "Tom Penny signature skateboard. Celebrating Cheech and Chong's 50th anniversary. Gold Foil.7-ply Canadian hard Rock Maple.",
+        "price": 74.99,
+        "category": 6,
+        "rating": 5,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/products/FL-TomPenny50th-BottomMockup_1024x1024@2x.png?v=1596057382",
+        "image": "flip2.png"
+    }
+
+}]
