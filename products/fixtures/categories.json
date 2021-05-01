@@ -2,8 +2,8 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-        "name": "activewear",
-        "friendly_name": "Activewear"
+        "name": "trucks",
+        "friendly_name": "Trucks"
     }
 }, {
     "pk": 2,
@@ -30,15 +30,15 @@
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "essentials",
-        "friendly_name": "Essentials"
+        "name": "wheels",
+        "friendly_name": "Wheels"
     }
 }, {
     "pk": 6,
     "model": "products.category",
     "fields": {
-        "name": "FlipSkateBoards",
-        "friendly_name": "FlipSkateBoards"
+        "name": "flipskateboards",
+        "friendly_name": "FlipDecks"
     }
 }, {
     "pk": 7,
@@ -58,7 +58,7 @@
     "pk": 9,
     "model": "products.category",
     "fields": {
-        "name": "shirts",
-        "friendly_name": "Shirts"
+        "name": "almostskateboards",
+        "friendly_name": "AlmostDecks"
     }
 }]

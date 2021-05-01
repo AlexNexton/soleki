@@ -3,26 +3,103 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001340155",
-        "name": "Oliveira Kaja 8.1 x 31.50",
-        "description": "Luan Oliveira Pro Skateboard Deck. 7-ply Canadian hard Rock Maple.",
+        "name": "Team Odyssey Spiral Green 8.00 x 32.50",
+        "description": "Flip Team Skateboard Deck. 7-ply Canadian hard Rock Maple. ",
         "price": 59.99,
         "category": 6,
-        "rating": 4.6,
-        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "DP0709201205510679M.jpg"
+        "rating": 3.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/products/FL_TeamSpiralGreen_1024x1024@2x.jpg?v=1618414856",
+        "image": "FL_TeamSpiralGreen_1024x1024@2x.png"
     }
 }, {
     "pk": 2,
     "model": "products.product",
     "fields": {
         "sku": "pp5001600425",
-        "name": "Penny Cheech and Chong's 50th Gold Foil 8.00 x 31.4",
-        "description": "Tom Penny signature skateboard. Celebrating Cheech and Chong's 50th anniversary. Gold Foil.7-ply Canadian hard Rock Maple.",
-        "price": 74.99,
+        "name": "Gonzalez Kaja 8.00 x 32.50",
+        "description": "David Gonzalez Pro Skateboard Deck. 7-ply Canadian hard Rock Maple.",
+        "price": 55.00,
         "category": 6,
-        "rating": 5,
-        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/products/FL-TomPenny50th-BottomMockup_1024x1024@2x.png?v=1596057382",
-        "image": "flip2.png"
+        "rating": 2.6,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/products/381FL_Gonzalez_KajaSeries_1024x1024@2x.jpg?v=1607371798",
+        "image": "381FL_Gonzalez_KajaSeries_1024x1024@2x.png"
     }
-
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001730010",
+        "name": "Penny Cheech and Chong's 50th Gold Foil 8.00 x 31.4",
+        "description": "Tom Penny signature skateboard. Celebrating Cheech and Chong's 50th anniversary. Gold Foil. 7-ply Canadian hard Rock Maple.",
+        "price": 84.99,
+        "category": 6,
+        "rating": 5.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/products/FL-TomPenny50th-BottomMockup_1024x1024@2x.png?v=1596057382",
+        "image": "FL-TomPenny50th-BottomMockup_1024x1024@2x.png"
+    }
+}, {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5001890157",
+        "name": "Mountain Crest Stained (Assorted) 9.00 x 32.75",
+        "description": "Lance Mountain Pro Skateboard Deck. 7-ply Canadian hard Rock Maple. Assorted veneers stains.",
+        "price": 69.99,
+        "category": 6,
+        "rating": 4.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/products/FL-LanceCrest-RedF-88singleDrilled_1024x1024@2x.jpg?v=1618414749",
+        "image": "FL-LanceCrest-RedF-88singleDrilled_1024x1024@2x.png"
+    }
+}, {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002111605",
+        "name": "Almost Spin Blur Youth Logo Red 7.375 Skateboard Deck",
+        "description": "Almost Spin Blur Youth Logo Red 7.375 Skateboard Deck Width: 7.375 x31.2 / WB: 13.88 Color Red",
+        "price": 49.95,
+        "category": 9,
+        "rating": 3.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10023718_red_1_grande.jpg?v=1607325552",
+        "image": "10023718_red_1_grande.jpg"
+    }
+}, {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002260206",
+        "name": "Almost Spin Blur Logo Blue 8.0 Skateboard Deck",
+        "description": "Almost Spin Blur Youth Logo Red 7.375 Skateboard Deck Width: 7.375 x31.2 / WB: 13.88 Color Blue",
+        "price": 30.99,
+        "category": 9,
+        "rating": 4.7,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10023718_blue_1_2836c2c9-1ee1-4b1d-b39a-d3c67229f97c_grande.jpg?v=1607161998",
+        "image": "10023718_blue_1_2836c2c9-1ee1-4b1d-b39a-d3c67229f97c_grande.jpg"
+    }
+}, {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002440521",
+        "name": "Almost Yuri Ivy League Impact Light 8.375 Skateboard Deck",
+        "description": "Almost Yuri Ivy League Impact Light 8.375 Skateboard Deck IMPACT Light Construction Width: 8.375 / Length: 32.2 / Wheelbase: 14.25 Mellow Concave / Steep Kick ",
+        "price": 75.0,
+        "category": 9,
+        "rating": 5,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10023720_yuri_1_c2fb4a7d-807b-4ebb-8563-c525e97f2b73_grande.jpg?v=1607150927",
+        "image": "10023720_yuri_1_c2fb4a7d-807b-4ebb-8563-c525e97f2b73_grande.jpg"
+    }
+}, {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5002601115",
+        "name": "Almost Max Ivy League Impact Light 8.25 Skateboard Deck",
+        "description": "Almost Max Ivy League Impact Light 8.25 Skateboard Deck IMPACT Light Construction Width: 8.25 / Length: 32.1 / Wheelbase: 14.25 Mellow Concave / Steep Kick",
+        "price": 64.95,
+        "category": 9,
+        "rating": 4.5,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10023720_max_1_3ef52474-8f3b-4165-8253-661331404e77_grande.jpg?v=1607151844",
+        "image": "10023720_max_1_3ef52474-8f3b-4165-8253-661331404e77_grande.jpg"
+    }
 }]
