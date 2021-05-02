@@ -21,7 +21,6 @@ body {
 
 .logo-font {
     text-transform: uppercase;
-    color: #ffc107;
 }
 
 .main-logo-link {
@@ -44,6 +43,13 @@ body {
     color: black !important;
     /* use important to override link colors for <a> elements */
     border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
 }
 
 .shop-now-button:hover,
@@ -95,7 +101,6 @@ a.category-badge>span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
-
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -190,6 +195,7 @@ a.category-badge>span.badge:hover {
     }
 }
 
+/* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
