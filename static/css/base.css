@@ -21,10 +21,20 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+
+}
+
+.main-soleki-logo {
+    background-color: #ffc107;
 }
 
 .main-logo-link {
     width: fit-content;
+}
+
+.hvr-box-shadow-inset:hover {
+    background-color: #ffc107;
+    z-index: 99999999999
 }
 
 .shop-now-button {
@@ -203,5 +213,22 @@ a.category-badge>span.badge:hover {
 
     body {
         height: calc(100vh - 116px);
+    }
+}
+
+/*code for navbar dropdown upon hover ref https://bootstrap-menu.com/detail-basic-hover.html */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
     }
 }

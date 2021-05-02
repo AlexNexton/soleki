@@ -1,57 +1,60 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown hvr-box-shadow-inset">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item hvr-glow">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item hvr-glow">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item hvr-glow">By
+                    Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item hvr-glow">All Products</a>
             </div>
         </li>
 
-        <li class="nav-item dropdown">
+        <li class="nav-item hvr-box-shadow-inset dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 SkateBoards
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=trucks,wheels" class="dropdown-item">Trucks &amp;
+                <a href="{% url 'products' %}?category=trucks,wheels" class="dropdown-item hvr-glow">Trucks &amp;
                     Wheels</a>
-                <a href="{% url 'products' %}?category=flipskateboards" class="dropdown-item">Flip Decks</a>
-                <a href="{% url 'products' %}?category=almostskateboards" class="dropdown-item">Almost Decks</a>
+                <a href="{% url 'products' %}?category=flipskateboards" class="dropdown-item hvr-glow">Flip Decks</a>
+                <a href="{% url 'products' %}?category=almostskateboards" class="dropdown-item hvr-glow">Almost
+                    Decks</a>
                 <a href="{% url 'products' %}?category=trucks,wheels,flipskateboards,almostskateboards"
-                    class="dropdown-item">All
+                    class="dropdown-item hvr-glow">All
                     Accessories</a>
             </div>
         </li>
 
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown hvr-box-shadow-inset">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="snowboards-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 SnowBoards
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="snowboards-link">
-                <a href="{% url 'products' %}?category=mens_snowboards" class="dropdown-item">Men's </a>
-                <a href="{% url 'products' %}?category=womens_snowboards" class="dropdown-item">Woman's</a>
-                <a href="{% url 'products' %}?category=mens_snowboards,womens_snowboards" class="dropdown-item">All
+                <a href="{% url 'products' %}?category=mens_snowboards" class="dropdown-item hvr-glow">Men's </a>
+                <a href="{% url 'products' %}?category=womens_snowboards" class="dropdown-item hvr-glow">Woman's</a>
+                <a href="{% url 'products' %}?category=mens_snowboards,womens_snowboards"
+                    class="dropdown-item hvr-glow">All
                     SnowBoards</a>
             </div>
         </li>
 
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown hvr-box-shadow-inset">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item hvr-glow">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item hvr-glow">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item hvr-glow">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item hvr-glow">All
                     Specials</a>
             </div>
         </li>
