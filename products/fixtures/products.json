@@ -134,7 +134,7 @@
     "fields": {
         "sku": "pp5002761055",
         "name": "Flip HKD Red 8.25",
-        "description": "Skateboard Complete setup Flip HKD Red 8.25 trucks. Flip Team. Decks skateboards",
+        "description": "Skateboard Complete setup Flip HKD Red 8.25. Flip Team. Decks skateboards",
         "price": 109.90,
         "category": 6,
         "rating": 4.0,
@@ -147,7 +147,7 @@
     "fields": {
         "sku": "pp5002820069",
         "name": "Flip Oliveira Doughboy 7.87",
-        "description": "Skateboard Complete setup Flip Oliveira Doughboy 7.87 with Trucks. Flip Team. Decks skateboards",
+        "description": "Skateboard Complete setup Flip Oliveira Doughboy 7.87. Flip Team. Decks skateboards",
         "price": 109.90,
         "category": 6,
         "rating": 4.0,
@@ -160,7 +160,7 @@
     "fields": {
         "sku": "pp5002820147",
         "name": "Almost Rugby Resin Yth Premium 7.375",
-        "description": "Skateboard Complete setup Almost Rugby Resin Yth Premium 7.375 with Trucks. Flip Team. Decks skateboards",
+        "description": "Skateboard Complete setup Almost Rugby Resin Yth Premium 7.375. Flip Team. Decks skateboards",
         "price": 109.95,
         "category": 9,
         "rating": 5.0,
@@ -173,7 +173,7 @@
     "fields": {
         "sku": "pp5002910572",
         "name": "Almost Red Ringer Youth First Push 7.25",
-        "description": "Skateboard Complete setup Almost Red Ringer Youth First Push 7.25 with Trucks. Flip Team. Decks skateboards",
+        "description": "Skateboard Complete setup Almost Red Ringer Youth First Push 7.25. Flip Team. Decks skateboards",
         "price": 70.95,
         "category": 9,
         "rating": 3.0,
@@ -186,7 +186,7 @@
     "fields": {
         "sku": "pp5002990740",
         "name": "Almost Radiate First Push Blue 8.25 ",
-        "description": "Skateboard Complete setup Almost Radiate First Push Blue 8.25 with Trucks. Flip Team. Decks skateboards",
+        "description": "Skateboard Complete setup Almost Radiate First Push Blue 8.25. Flip Team. Decks skateboards",
         "price": 84.95,
         "category": 9,
         "rating": 4.3,
@@ -199,11 +199,167 @@
     "fields": {
         "sku": "pp5003050248",
         "name": "Almost Skateistan Sky Doodle First Push Purple ",
-        "description": "Skateboard Complete setup Almost Skateistan Sky Doodle First Push Purple with Trucks. Flip Team. Decks skateboards",
+        "description": "Skateboard Complete setup Almost Skateistan Sky Doodle First Push Purple . Flip Team. Decks skateboards",
         "price": 84.95,
         "category": 9,
         "rating": 4.3,
         "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10523237_purple_1_large.jpg?v=1607414152",
         "image": "10523237_purple_1_large.jpg"
+    }
+}, {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003070787",
+        "name": "Element Section Red",
+        "description": "Skateboard Wheels: Element Section Red 52mm 95A Pack 4. Decks skateboards",
+        "price": 26.95,
+        "category": 5,
+        "rating": 3.3,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/r/e/rel021-ruedas-skate-element-section-52mm_3.jpg",
+        "image": "rel021-ruedas-skate-element-section-52mm_3.jpg"
+    }
+}, {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090182",
+        "name": "Santa Cruz Astros",
+        "description": "Skateboard Wheels: Santa Cruz Astros Speed Slime Balls Purple Yellow 99A 54mm Pack 4. Decks skateboards",
+        "price": 47.95,
+        "category": 5,
+        "rating": 4.3,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/r/s/rsanta015-ruedas-skate-santa-cruz-astros-speed-balls-purple-yellow-54mm-99a.jpg",
+        "image": "rsanta015-ruedas-skate-santa-cruz-astros-speed-balls-purple-yellow-54mm-99a.jpg"
+    }
+}, {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003090186",
+        "name": "Enjoi Panda ",
+        "description": "Skateboard Wheels: Enjoi Panda White 53mm Pack 4. Decks skateboards",
+        "price": 35.95,
+        "category": 5,
+        "rating": 4.4,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/r/e/ren001-ruedas-skate-enjoi-panda-white-53mm.jpg",
+        "image": "ren001-ruedas-skate-enjoi-panda-white-53mm.jpg"
+    }
+}, {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003440111",
+        "name": "Bones Cruz ",
+        "description": "Skateboard Wheels: Bones Cruz Buena Vida STF 103A 53mm Pack 4",
+        "price": 52.95,
+        "category": 5,
+        "rating": 4.7,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/r/b/rbo067-ruedas-skate-bones-cruz-buena-vida-stf-103a-53mm.jpg",
+        "image": "rbo067-ruedas-skate-bones-cruz-buena-vida-stf-103a-53mm.jpg"
+    }
+}, {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003161326",
+        "name": "Tensor Alum Stencil Green ",
+        "description": "Skateboard Trucks: Tensor Alum Stencil Mirror Raw/Green Fade Trucks",
+        "price": 54.85,
+        "category": 1,
+        "rating": 4.1,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10415337_rawgreenfade_1_large.jpg?v=1607329649",
+        "image": "10415337_rawgreenfade_1_large.jpg"
+    }
+}, {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003230723",
+        "name": "Tensor Alum Stencil Pink  ",
+        "description": "Skateboard Trucks: Tensor Alum Stencil Mirror Raw/Crimson Fade Trucks",
+        "price": 54.85,
+        "category": 1,
+        "rating": 4.1,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10415337_rawcrimsonfade_1_large.jpg?v=1607329191",
+        "image": "10415337_rawcrimsonfade_1_large.jpg"
+    }
+}, {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003270936",
+        "name": "Tensor Alum Stencil Black  ",
+        "description": "Skateboard Trucks: Tensor Mag Light Reflect Silver/Black Skateboard Trucks",
+        "price": 64.85,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10415329_silverblack_1_large.jpg?v=1607328646",
+        "image": "10415329_silverblack_1_large.jpg"
+    }
+}, {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003270936",
+        "name": "Tensor Alum Stencil Red  ",
+        "description": "Skateboard Trucks: Tensor Mag Light Reflect Silver/Red 5.5 Trucks",
+        "price": 64.85,
+        "category": 1,
+        "rating": 4.9,
+        "image_url": "https://cdn.shopify.com/s/files/1/1855/9149/products/10415329_silverred_1_large.jpg?v=1607327771",
+        "image": "10415329_silverred_1_large.jpg"
+    }
+}, {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003540313",
+        "name": "SnowBoard Mens: GNU Essential Service Snowboard - Blem 2021",
+        "description": "C3 Technology – Aggressive dominant cambers out to the contacts combined with mild rocker between your feet. Subtle Banana rocker gives freestyle freedom with maximum end to end stability for big, high-speed lines. For aggressive, skilled riders.",
+        "price": 464.85,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "https://images.evo.com/imgp/700/203929/800887/gnu-essential-service-snowboard-blem-2021-.jpg",
+        "image": "gnu-essential-service-snowboard-blem-2021-.jpg"
+    }
+}, {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560513",
+        "name": "SnowBoard Mens: Lib Tech TRS C3 Snowboard - Blem 2021",
+        "description": "Rip. It. Up. Doesn't matter where you are on the mountain, the Lib Tech TRS C3 Snowboard will lead you to glory. Short for Total Ripper Series, the TRS was originally designed for park and slopestyle, but has become a go-to for aggressive and progressive freestyle all over the mountain. It's a good thing this board comes in many sizes, because the total ripper within you deserves a board of proper shredness.",
+        "price": 450.85,
+        "category": 2,
+        "rating": 4.7,
+        "image_url": "https://images.evo.com/imgp/700/203905/800878/lib-tech-trs-c3-snowboard-blem-2021-.jpg",
+        "image": "lib-tech-trs-c3-snowboard-blem-2021-.jpg"
+    }
+}, {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003560948",
+        "name": "SnowBoard Mens: Lib Tech Skunk Ape HP C2 Snowboard - Blem 2021",
+        "description": "C2 Technology – Lib Tech worked with Travis Rice to develop this perfectly balanced all terrain contour. Mild rocker between your feet with powerful cambers to the tips and tails. Enough power pop and precision to technically hit the biggest wedges, enough float and freedom to rip the gnarliest AK pow lines. Carves the resort, plays in the park, and slays powder.",
+        "price": 529.85,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": "https://images.evo.com/imgp/700/203907/800880/lib-tech-skunk-ape-hp-c2-snowboard-blem-2021-.jpg",
+        "image": "lib-tech-skunk-ape-hp-c2-snowboard-blem-2021-.jpg"
+    }
+}, {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003570628",
+        "name": "SnowBoard Mens: Sims Bowl Squad Snowboard 2021",
+        "description": "If you dream of joining the squad in bigger, badder terrain, you gotta nail the basics first. The Sims Bowl Squad Snowboard is here to help. This soft flexing board is designed to boost skills and confidence for riders just starting out on the journey. It's a lightweight true twin with an all mountain heart - easy turning, playful, and seriously fun to bonk around on in the park and beyond. It does everything you need it to when you're just getting the hang of things, and theres nothing better to take you where you want to go.",
+        "price": 289.85,
+        "category": 2,
+        "rating": 4.2,
+        "image_url": "https://images.evo.com/imgp/700/203907/800880/lib-tech-skunk-ape-hp-c2-snowboard-blem-2021-.jpg",
+        "image": "sims-bowl-squad-snowboard-2021-.jpg"
     }
 }]
