@@ -28,6 +28,10 @@ body {
     background-color: #ffc107;
 }
 
+.free-delive-font {
+    background-color: #28a745;
+}
+
 .main-logo-link {
     width: fit-content;
 }
@@ -37,11 +41,20 @@ body {
     z-index: 99999999999
 }
 
+/*Change the color on clicking the items in the navbar*/
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000000;
+}
+
 .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
 }
+
 
 .btn-black {
     background: black;
@@ -221,8 +234,6 @@ a.category-badge>span.badge:hover {
     .navbar .nav-item .dropdown-menu {
         display: none;
     }
-
-    .navbar .nav-item:hover .nav-link {}
 
     .navbar .nav-item:hover .dropdown-menu {
         display: block;
