@@ -358,8 +358,60 @@
         "description": "If you dream of joining the squad in bigger, badder terrain, you gotta nail the basics first. The Sims Bowl Squad Snowboard is here to help. This soft flexing board is designed to boost skills and confidence for riders just starting out on the journey. It's a lightweight true twin with an all mountain heart - easy turning, playful, and seriously fun to bonk around on in the park and beyond. It does everything you need it to when you're just getting the hang of things, and theres nothing better to take you where you want to go.",
         "price": 289.85,
         "category": 2,
-        "rating": 4.2,
+        "rating": 3.9,
         "image_url": "https://images.evo.com/imgp/700/203907/800880/lib-tech-skunk-ape-hp-c2-snowboard-blem-2021-.jpg",
         "image": "sims-bowl-squad-snowboard-2021-.jpg"
+    }
+}, {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003620308",
+        "name": "SnowBoard Womens: Lib Tech Cortado C2 Snowboard - Blem - Women's 2021",
+        "description": "The Lib Tech Cortado C2 Snowboard is the hard charging, do-it-all women's specific board that's free from the send-it jitters and loaded with versatile design features for everyday riding. Made with Lib's C2 camber for a ride that's controlled and precise but as fun as they come, this board will handle the full spectrum of conditions, chopping and surfing its way through everything from chunderous fields to bowls of endless champagne pow. The Lib Tech Cortado C2 Snowboard was made to build confidence and inspire creative lines all over the mountain. ",
+        "price": 419.85,
+        "category": 7,
+        "rating": 4.2,
+        "image_url": "https://images.evo.com/imgp/700/203910/800882/lib-tech-cortado-c2-snowboard-blem-women-s-2021-.jpg",
+        "image": "lib-tech-cortado-c2-snowboard-blem-women-s-2021-.jpg"
+    }
+}, {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003690115",
+        "name": "SnowBoard Womens:Roxy Torah Bright C2X Snowboard - Blem - Women's 2021",
+        "description": "The Roxy Torah Bright C2X Snowboard is the flagship model of the Roxy snowboard line, and the board of choice for Olympic gold medalist Torah Bright. With top of the line C2X rocker tech for increased float, pivot and edgehold, and a super poppy and lightweight aspen and paulownia core, this board is ready to make the whole mountain your plaything. It spins and bounces through the resort and backcountry, throws down in the park, and holds up to high flying halfpipe aerials if you've got what it takes to push it like Torah does. ",
+        "price": 476.85,
+        "category": 7,
+        "rating": 4.5,
+        "image_url": "https://images.evo.com/imgp/700/203897/801014/roxy-torah-bright-c2x-snowboard-blem-women-s-2021-.jpg",
+        "image": "roxy-torah-bright-c2x-snowboard-blem-women-s-2021-.jpg"
+    }
+}, {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003690116",
+        "name": "SnowBoard Womens:Arbor Ethos Snowboard - Women's 2022",
+        "description": "They say a journey of a thousand miles begins with a single step. And for snowboarding, that first step is a heck of a lot easier on the Arbor Ethos Snowboard. This snowboard is the perfect platform on which to perfect the craft of sliding sideways on frozen water. It has a fully rockered profile, which means the edges curve away from the snow instead of towards it, so turn initiation is easy and catch free. The flex of the board is smooth and soft for easy rideability, and the build itself is done as sustainably as possible, which doesn't do anything to make the board easier to ride, but does make it easier for all of us to keep riding further into the future. That's a big win for everyone! ",
+        "price": 476.85,
+        "category": 7,
+        "rating": 4.6,
+        "image_url": "https://images.evo.com/imgp/700/200882/798782/arbor-ethos-snowboard-women-s-2022-.jpg",
+        "image": "arbor-ethos-snowboard-women-s-2022-.jpg"
+    }
+}, {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5003780391",
+        "name": "SnowBoard Womens:Salomon Pillow Talk Splitboard - Women's 2022",
+        "description": "The Salomon Pillow Talk Splitboard is everything you need out of your splitty. It's a super lightweight directional shape with a centered stance and rockered tail, giving it extra versatility and a hint of freestyle feel. The wider design gives you plenty of float for whispering sweet nothings to pillow lines and pow stashes, while the pulled in tail and sturdy flex pattern give you power and reliability for when things get heated. As an added bonus, every board comes with a set of custom cut Pomoca skins, so that's just one less thing to worry about while you're getting your backcountry setup dialed.",
+        "price": 799.85,
+        "category": 7,
+        "rating": 4.8,
+        "image_url": "https://images.evo.com/imgp/700/181089/734429/salomon-pillow-talk-splitboard-women-s-2022-.jpg",
+        "image": "salomon-pillow-talk-splitboard-women-s-2022-.jpg"
     }
 }]
