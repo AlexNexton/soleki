@@ -33,8 +33,9 @@ body {
 #logo-a {
     display: block;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 0;
-    height: 30vh;
+    height: 10vh;
     width: 100%;
 }
 
@@ -42,7 +43,6 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 auto;
     height: 100%;
     max-width: 99%;
     border-radius: 50%;
@@ -64,6 +64,8 @@ body {
     background-color: #ffc107;
     z-index: 99999999999
 }
+
+
 
 /*Change the color on clicking the items in the navbar*/
 .dropdown-item.active,
