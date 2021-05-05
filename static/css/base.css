@@ -62,7 +62,7 @@ body {
 
 .hvr-box-shadow-inset:hover {
     background-color: #ffc107;
-    z-index: 99999999999
+    z-index: 99999999999;
 }
 
 
