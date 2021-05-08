@@ -1,3 +1,9 @@
+.order-history {
+    max-height: 416px;
+    /* height of profile form + submit button */
+    overflow-y: auto;
+}
+
 /*colours need to be changed in the countryfield.js file too!*/
 
 #profile-update-form .form-control {
