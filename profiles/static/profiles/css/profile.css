@@ -1,0 +1,22 @@
+/*colours need to be changed in the countryfield.js file too!*/
+
+#profile-update-form .form-control {
+    color: rgb(243, 17, 17);
+    /*text colour of the input*/
+}
+
+#profile-update-form input::placeholder {
+    color: #0a7ff5;
+    /*placeholder text*/
+}
+
+/*the colour of a selected country*/
+#id_default_country,
+#id_default_country option:not(:first-child) {
+    color: #24d613
+}
+
+/*the inicial colour of country*/
+#id_default_country option:first-child {
+    color: #c7158b;
+}
