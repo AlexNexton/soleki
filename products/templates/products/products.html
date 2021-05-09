@@ -14,7 +14,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
-            <h2 class="logo-font">Products</h2>
+            <h2 class="logo-font product-txt">Products</h2>
             {% for c in current_categories %}
             <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
                 <span
@@ -52,10 +52,11 @@
                         </select>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 order-md-first">
+                <div class="col-12 col-md-6 order-md-first product-txt ">
                     <p class="text-muted mt-3 text-center text-md-left">
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
-                        <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
+                        <span class="small"><a class="product-txt" href="{% url 'products' %}">Products Home</a> |
+                        </span>
                         {% endif %}
                         {{ products|length }} Products{% if search_term %} found for
                         <strong>"{{ search_term }}"</strong>{% endif %}
@@ -64,7 +65,7 @@
             </div>
             <div class="row">
                 {% for product in products %}
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 product-bg">
                     <div class="card h-100 border-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">

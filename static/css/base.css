@@ -1,21 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+:root {
+    /* fonts */
+    --header-font: 'Krona One', sans-serif;
+    --main-font: 'Lato', sans-serif;
+
+    /* color palette */
+    --black-chocolate: #1D1E18;
+    --white: #ffffff;
+    --dark-lava: #453E35;
+    --hunter-blue: #007bff;
+    --almond: #EDE0D4;
+    --tuscany: #D0A4A0;
+    --plum: #700A15;
+
+    /* box shadows */
+    --dark-large-box-shadow: 6px 6px 12px var(--dark-lava);
+    --dark-small-box-shadow: 1px 1px 5px var(--dark-lava)
+}
+
+
 html {
     height: 100%;
 }
 
+
+body {
+    background: url('/media/skatebg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: var(--black-chocolate);
+    font-family: 'Gugi', cursive;
+}
 
 /* Video banner */
 video {
     width: 100%;
     height: auto;
     border-radius: 10%;
-}
-
-body {
-    background: url('/media/skatebg2.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
 }
 
 /* from Bulma */
@@ -37,12 +59,12 @@ body {
     height: 10px;
 }
 
+/*navbar bg img and other items*/
 #topnav {
     background: url('/media/skatebg2.jpg') no-repeat center center fixed;
 
 }
 
-.navbar {}
 
 #main-nav {
     background: url('/media/skatebg2.jpg') no-repeat center center fixed;
@@ -97,21 +119,26 @@ body {
 
 
 /*Change the color on clicking the items in the navbar*/
+
 .dropdown-item.active,
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #000000;
+    background-color: var(--black-chocolate);
+    ;
 }
 
 .shop-now-button {
-    background: black;
+    background: var(--black-chocolate);
+    ;
     color: white;
     min-width: 171px;
+    font-size: 15px;
 }
 
 .skate-snow {
-    background: black;
+    background: var(--black-chocolate);
+    ;
     color: white;
     min-width: 171px;
     display: inline-block;
@@ -157,15 +184,15 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color: var(--black-chocolate) !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid var(--black-chocolate) !important;
 }
 
 .bg-black {
-    background: #000 !important;
+    background: var(--black-chocolate) !important;
 }
 
 .overlay {
@@ -220,7 +247,7 @@ a.category-badge>span.badge:hover {
     height: 0;
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid var(--black-chocolate);
     position: absolute;
     top: -10px;
     right: 36px;
@@ -275,7 +302,8 @@ a.category-badge>span.badge:hover {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: var(--black-chocolate);
+
     border-radius: 0;
 }
 
@@ -299,8 +327,8 @@ a.category-badge>span.badge:hover {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: var(--black-chocolate);
+    border: 1px solid var(--black-chocolate);
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -323,6 +351,12 @@ a.category-badge>span.badge:hover {
 }
 
 /* Product Form */
+
+.card-body {
+    color: var(--black-chocolate);
+    text-shadow: 2px 2px 2px rgba(216, 19, 19, 0.5);
+
+}
 
 .btn-file {
     position: relative;
@@ -348,6 +382,75 @@ a.category-badge>span.badge:hover {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+/*products page*/
+
+.product-txt {
+    text-shadow: 2px 2px 2px rgba(216, 19, 19, 0.5);
+    color: var(--black-chocolate);
+    background-color: #ffffff;
+
+}
+
+.product-bg {
+    background-color: var(--black-chocolate);
+}
+
+/*Footer*/
+
+.footer {
+    background-color: var(--black-chocolate);
+    color: var(--white);
+    padding: 3rem 2rem;
+}
+
+.footer h4 {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2vw;
+}
+
+.footer .hr-style {
+    width: 30%;
+    border-color: var(--white);
+    display: inline-table;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer ul i {
+    color: var(--white);
+    width: 32px;
+    height: 32px;
+    padding: 1.2rem 0;
+    font-size: 2.5rem;
+}
+
+.footer-link {
+    font-family: var(--header-font);
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+.footer-contact-info p {
+    font-size: 1.4rem;
+}
+
+.footer ul i:hover,
+.footer-nav .nav-link:hover {
+    color: var(--hunter-blue);
+}
+
+.footer ul li a:hover {
+    text-decoration: none;
+}
+
+.footer ul li a {
+    color: var(--white);
 }
 
 

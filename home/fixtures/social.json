@@ -1,0 +1,9 @@
+[{
+    "model": "home.socialmedia",
+    "pk": 1,
+    "fields": {
+        "name": "instagram",
+        "icon": "fa-instagram",
+        "url": "https://www.instagram.com/"
+    }
+}]
