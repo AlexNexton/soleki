@@ -29,6 +29,18 @@ body {
     height: 10px;
 }
 
+#topnav {
+    background: url('/media/skatebg2.jpg') no-repeat center center fixed;
+
+}
+
+.navbar {}
+
+#main-nav {
+    background: url('/media/skatebg2.jpg') no-repeat center center fixed;
+
+}
+
 /* header - logo */
 #logo-a {
     display: block;
@@ -79,7 +91,7 @@ body {
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    min-width: 171px;
 }
 
 
@@ -342,6 +354,25 @@ a.category-badge>span.badge:hover {
     }
 }
 
+@media(max-width: 600px) {
+    .shop-now-button {
+        background: rgb(43, 11, 223);
+        color: white;
+        margin-left: 30%;
+        min-width: 100px;
+    }
+}
+
+@media(max-width: 500px) {
+    .shop-now-button {
+        background: rgb(223, 11, 11);
+        color: white;
+        margin-left: 25%;
+        min-width: 100px;
+    }
+}
+
+
 /*code for navbar dropdown upon hover ref https://bootstrap-menu.com/detail-basic-hover.html */
 @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
@@ -355,4 +386,6 @@ a.category-badge>span.badge:hover {
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
     }
+
+
 }
