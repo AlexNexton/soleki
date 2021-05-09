@@ -1,0 +1,11 @@
+<div class="row justify-content-center" id="video-home">
+    <div class="col-12 p-4">
+        <h2 class="skate-snow rounded-1">snowboarding</h2>
+        <a href="{% url 'products' %}?category=mens_snowboards,womens_snowboards" data-toggle="tooltip"
+            data-placement="right" title="snowboarding" data-original-title=" room view">
+            <video autoplay loop muted>
+                <source src="{{ MEDIA_URL }}video/snowboarding.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+</div>
