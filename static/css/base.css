@@ -73,10 +73,18 @@ body {
     width: fit-content;
 }
 
-.hvr-box-shadow-inset:hover {
-    background-color: #ffc107;
+.nav-item-1:hover {
+    background-color: #ffffff;
     z-index: 99999999999;
 }
+
+.nav-item-2:hover {
+    background-color: #007bff;
+    z-index: 99999999999;
+}
+
+
+
 
 
 
