@@ -104,12 +104,12 @@ video {
 }
 
 .nav-item-1:hover {
-    background-color: #ffffff;
+    background-color: var(--dark-lava);
     z-index: 99999999999;
 }
 
 .nav-item-2:hover {
-    background-color: #007bff;
+    background-color: var(--dark-lava);
     z-index: 99999999999;
 }
 
