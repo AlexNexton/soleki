@@ -1,0 +1,1 @@
+web: gunicorn soleki.wsgi:application
