@@ -61,13 +61,13 @@ video {
 
 /*navbar bg img and other items*/
 #topnav {
-    background: url('MEDIA_URL') no-repeat center center fixed;
+    background: url('/media/skatebg2.jpg') no-repeat center center fixed;
 
 }
 
 
 #main-nav {
-    background: url('MEDIA_URL') no-repeat center center fixed;
+    background: url('/media/skatebg2.jpg') no-repeat center center fixed;
 
 }
 
