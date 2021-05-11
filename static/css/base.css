@@ -62,6 +62,10 @@ video {
 }
 
 /*navbar bg img and other items*/
+.navbar {
+    background-color: var(--soleki-green);
+}
+
 #topnav {
     background: url('/media/skatebg2.jpg') no-repeat center center fixed;
 
@@ -124,7 +128,7 @@ video {
 
 .dropdown-item.active,
 .dropdown-item:active {
-    color: #fff;
+    color: var(--almond);
     text-decoration: none;
     background-color: var(--black-chocolate);
     ;
@@ -132,8 +136,7 @@ video {
 
 .shop-now-button {
     background: var(--black-chocolate);
-    ;
-    color: white;
+    color: var(--almond);
     min-width: 171px;
     font-size: 15px;
 }
@@ -141,7 +144,7 @@ video {
 .skate-snow {
     background: var(--black-chocolate);
 
-    color: white;
+    color: var(--almond);
     min-width: 171px;
     display: inline-block;
     font-weight: 400;
@@ -158,11 +161,11 @@ video {
 
 .btn-black {
     background: black;
-    color: white;
+    color: var(--almond);
 }
 
 .btn-outline-black {
-    background: white;
+    background: var(--almond);
     color: black !important;
     /* use important to override link colors for <a> elements */
     border: 1px solid black;
@@ -172,7 +175,7 @@ video {
 .btn-outline-black:active,
 .btn-outline-black:focus {
     background: black;
-    color: white !important;
+    color: var(--almond) !important;
 }
 
 .shop-now-button:hover,
@@ -182,7 +185,7 @@ video {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: var(--almond);
 }
 
 .text-black {
@@ -203,13 +206,13 @@ video {
     top: 0;
     left: 0;
     position: fixed;
-    background: white;
+    background: var(--almond);
     z-index: -1;
 }
 
 a.category-badge>span.badge:hover {
     background: #212529 !important;
-    color: #fff !important;
+    color: var(--almond) !important;
 }
 
 .btt-button {
@@ -245,8 +248,6 @@ a.category-badge>span.badge:hover {
     background-color: var(--soleki-green);
     border-radius: 10%;
 }
-
-
 
 .toast-body {
     background-color: var(--soleki-green);
@@ -335,7 +336,8 @@ a.category-badge>span.badge:hover {
     /* btn */
     display: inline-block;
     font-weight: 400;
-    color: #fff;
+    color: var(--almond);
+    ;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -355,7 +357,7 @@ a.category-badge>span.badge:hover {
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {
-    color: #fff;
+    color: var(--almond);
     background-color: #222;
     border-color: #222;
 }
@@ -369,7 +371,7 @@ a.category-badge>span.badge:hover {
 
 .card-body {
     color: var(--black-chocolate);
-    text-shadow: 2px 2px 2px rgba(216, 19, 19, 0.5);
+    text-shadow: 2px 2px 2px rgba(50, 110, 60, 0.5);
 
 }
 
@@ -402,15 +404,12 @@ a.category-badge>span.badge:hover {
 /*products page*/
 
 .product-txt {
-    text-shadow: 2px 2px 2px rgba(216, 19, 19, 0.5);
+    text-shadow: 2px 2px 2px rgba(50, 110, 60, 0.5);
     color: var(--black-chocolate);
-    background-color: #ffffff;
+    background-color: var(--almond);
 
 }
 
-.product-bg {
-    background-color: var(--black-chocolate);
-}
 
 /*Product Details*/
 
@@ -491,7 +490,7 @@ https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--almond);
 }
 
 /* Handle */
@@ -501,7 +500,7 @@ https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: var(--dark-lava);
 }
 
 
