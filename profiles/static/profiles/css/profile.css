@@ -1,3 +1,24 @@
+:root {
+    /* fonts */
+    --header-font: 'Gugi', cursive;
+    --main-font: 'Lato', sans-serif;
+
+    /* color palette */
+    --black-chocolate: #1D1E18;
+    --white: #ffffff;
+    --dark-lava: #453E35;
+    --hunter-blue: #007bff;
+    --almond: #EDE0D4;
+    --soleki-pink: #c7158b;
+    ;
+    --soleki-green: rgb(50, 110, 60);
+
+    /* box shadows */
+    --dark-large-box-shadow: 6px 6px 12px var(--dark-lava);
+    --dark-small-box-shadow: 1px 1px 5px var(--dark-lava)
+}
+
+
 .order-history {
     max-height: 416px;
     /* height of profile form + submit button */
@@ -7,22 +28,23 @@
 /*colours need to be changed in the countryfield.js file too!*/
 
 #profile-update-form .form-control {
-    color: rgb(243, 17, 17);
-    /*text colour of the input*/
+    color: var(--soleki-green)
+        /*text colour of the input*/
 }
 
 #profile-update-form input::placeholder {
-    color: #0a7ff5;
-    /*placeholder text*/
+    color: var(--hunter-blue)
+        /*placeholder text*/
 }
 
 /*the colour of a selected country*/
 #id_default_country,
 #id_default_country option:not(:first-child) {
-    color: #24d613
+
+    color: var(--soleki-green)
 }
 
 /*the inicial colour of country*/
 #id_default_country option:first-child {
-    color: #c7158b;
+    color: var(--soleki-pink)
 }
