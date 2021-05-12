@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
+/*code below inspired by CI botique ado project*/
+
 :root {
     /* fonts */
     --header-font: 'Gugi', cursive;
@@ -582,6 +584,45 @@ https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
     .navbar {
         color: var(--soleki-green);
     }
+
+    /*code below from CI botique ado project*/
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty,
+    .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+
 }
 
 @media(max-width: 600px) {
