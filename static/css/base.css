@@ -19,22 +19,6 @@
     --dark-small-box-shadow: 1px 1px 5px var(--dark-lava)
 }
 
-.order-confirmation-wrapper {
-    text-shadow: var(--dark-large-box-shadow);
-    border: 4px solid var(--dark-lava);
-    color: var(--soleki-green);
-}
-
-.order-confirmation-wrapper p {
-
-    border: 4px solid var(--dark-lava);
-    padding: 5px;
-
-}
-
-
-
-
 html {
     height: 100%;
 }
@@ -285,6 +269,20 @@ a.category-badge>span.badge:hover {
     color: var(--almond)
 }
 
+/*Checkout_success order form*/
+
+.order-confirmation-wrapper {
+    text-shadow: var(--dark-large-box-shadow);
+    border: 4px solid var(--dark-lava);
+    color: var(--soleki-green);
+}
+
+.order-confirmation-wrapper p {
+
+    border: 4px solid var(--dark-lava);
+    padding: 5px;
+
+}
 
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
