@@ -555,7 +555,7 @@ https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
     }
 
     .shop-now-button {
-        background: rgb(223, 11, 11);
+        color: var(--soleki-green);
         color: white;
         margin-left: 10%;
 
@@ -566,20 +566,20 @@ https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
     }
 
     .navbar {
-        background-color: rgb(223, 11, 11);
+        color: var(--soleki-green);
     }
 }
 
 @media(max-width: 600px) {
     .shop-now-button {
-        background: rgb(223, 11, 11);
+        color: var(--soleki-green);
         color: white;
         margin-left: 30%;
         min-width: 100px;
     }
 
     .navbar {
-        background-color: rgb(223, 11, 11);
+        color: var(--soleki-green);
     }
 
 
@@ -587,7 +587,7 @@ https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 
 @media(max-width: 500px) {
     .shop-now-button {
-        background: rgb(223, 11, 11);
+        color: var(--soleki-green);
         color: white;
         margin-left: 25%;
         min-width: 100px;
@@ -595,7 +595,7 @@ https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 
     .navbar {
         padding: 10px;
-        background-color: rgb(223, 11, 11);
+        color: var(--soleki-green);
     }
 
     .nav-link {
