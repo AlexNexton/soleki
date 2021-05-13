@@ -51,6 +51,9 @@ INSTALLED_APPS = [
     'profiles',
     'crispy_forms',
     'storages',
+
+    # other
+    'skateteam',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,13 @@
+[{
+    "pk": 1,
+    "model": "skateteam.skateteam",
+    "fields": {
+        "sku": "pp5003950574",
+        "name": "Lucas Rabelo",
+        "description": "When you are raised on the many meats and mean streets of Brazil you are bound to be some kind of gnarly, but when you are skating with the living local legends like Luan Oliveria and Carlos Ribeiro you are destined for real greatness on the wooden plank with four wheels. Lucas Rabelo is fresh serving from the heart of South America. Watch footage of this raw, technical skater and you will see two things: an incredibly deep bag of tricks and continued progression year after year. Two heavy parts to watch for reference are Thrasher’s “Primeiro Passo” part from 2017 and his 2018 “Bangin!” video on The Berrics. Watch out, Rabelo is the future.",
+        "teamcat": 1,
+        "rating": 4.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/files/lucas_large.jpg?v=1552494279",
+        "image": "skateteam/lucas_large.jpg"
+    }
+}]
