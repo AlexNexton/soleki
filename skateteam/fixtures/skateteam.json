@@ -10,4 +10,40 @@
         "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/files/lucas_large.jpg?v=1552494279",
         "image": "skateteam/lucas_large.jpg"
     }
+}, {
+    "pk": 2,
+    "model": "skateteam.skateteam",
+    "fields": {
+        "sku": "pp5013950574",
+        "name": "Luan Oliveira",
+        "description": "Luan Oliveira is a skating survivor. Born in the favelas of Porto Alegre, Brazil, his parents gave him up just after birth, leaving him to be raised by his grandmother. He came of age in a cluster of shanty homes where violence was a way of life, and skateboarding was about as welcome as outsiders",
+        "teamcat": 1,
+        "rating": 4.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/files/luan_large.jpg?v=1552490400",
+        "image": "skateteam/luan_oliveira.jpg"
+    }
+}, {
+    "pk": 3,
+    "model": "skateteam.skateteam",
+    "fields": {
+        "sku": "pp5023950574",
+        "name": "David Gonzalez",
+        "description": " González was born and raised in Bello, a municipality north of Medellin, Colombia.[1] He revealed in a 2012 interview, for the Weekend Buzz show of the RIDE Channel, that he has been growing his hair since he was 12 years of age, the same age that he ceased attending school (in seventh grade) to concentrate on skateboarding. González revealed in a 2013 online interview that he lost his virginity to a sex worker in Colombia at the age of 15 or 16 years",
+        "teamcat": 1,
+        "rating": 4.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/files/gonzo_large.jpg?v=1552489761",
+        "image": "skateteam/gonzo_large.jpg"
+    }
+}, {
+    "pk": 4,
+    "model": "skateteam.skateteam",
+    "fields": {
+        "sku": "pp5033950574",
+        "name": "Alec Majerus",
+        "description": "Alec Majerus born May 31st 1995 is a goofy footed pro skateboarder sponsored by Flip, Adidas, Volcom, 3rd Lair, Tech Deck. Alec was born in Minnesota and skated silver lake skate park. He won Tampa am 2012 and has five x games medals.",
+        "teamcat": 1,
+        "rating": 4.0,
+        "image_url": "https://cdn.shopify.com/s/files/1/1845/1549/files/alec_large.jpg?v=1552494239",
+        "image": "skateteam/alec_large.jpg"
+    }
 }]
