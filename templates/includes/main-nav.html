@@ -6,6 +6,7 @@
                 Soleki Home
             </a>
         </li>
+        {% if request.user.is_authenticated %}
         <li class="nav-item nav-item-2 dropdown hvr-box-shadow-inset">
             <a class="logo-font  font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -19,6 +20,7 @@
                 <a href="{% url 'products' %}" class="dropdown-item hvr-glow">All Products</a>
             </div>
         </li>
+        {% endif %}
 
         <li class="nav-item nav-item-1 hvr-box-shadow-inset dropdown">
             <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="clothing-link"
@@ -54,11 +56,10 @@
         <li class="nav-item nav-item-1 dropdown hvr-box-shadow-inset">
             <a class="logo-font font-weight-bold nav-link text-white" href="#" id="specials-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                Special Offers
+                Enter Soleki
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item hvr-glow">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item hvr-glow">Deals</a>
                 <a href="{% url 'skateteam' %}?teamcat=solekiskateteam" class="dropdown-item hvr-glow">Skate Team</a>
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item hvr-glow">All
                     Specials</a>

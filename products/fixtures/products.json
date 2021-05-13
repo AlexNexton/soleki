@@ -414,4 +414,56 @@
         "image_url": "https://images.evo.com/imgp/700/181089/734429/salomon-pillow-talk-splitboard-women-s-2022-.jpg",
         "image": "salomon-pillow-talk-splitboard-women-s-2022-.jpg"
     }
+}, {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005071145",
+        "name": "Surfskate Flow Wedge 32",
+        "description": "The Soleki SurfSkate flow collection are only available to our memebers.The new skateboards are as exculsive as you can get. Join the Soleki experience..",
+        "price": 215.0,
+        "category": 8,
+        "rating": 5,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/c/r/crflow005-surfskate-flow-wedge-32_22.jpg",
+        "image": "new1.jpg"
+    }
+}, {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005140282",
+        "name": "Surfskate Flow Wave 29",
+        "description": "The Soleki SurfSkate flow collection are only available to our memebers.The new skateboards are as exculsive as you can get. Join the Soleki experience..",
+        "price": 218.99,
+        "category": 8,
+        "rating": 5.0,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/c/r/crflow004-surfskate-flow-wave-29_22.jpg",
+        "image": "new2.jpg"
+    }
+}, {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005200166",
+        "name": "Surfskate Flow Stub 29",
+        "description": "The Soleki SurfSkate flow collection are only available to our memebers.The new skateboards are as exculsive as you can get. Join the Soleki experience..",
+        "price": 214.99,
+        "category": 8,
+        "rating": 4.4,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/c/r/crflow003-surfskate-flow-stub-29_22.jpg",
+        "image": "new3.jpg"
+    }
+}, {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+        "sku": "pp5005210241",
+        "name": "Surfskate Flow Nemo 29",
+        "description": "The Soleki SurfSkate flow collection are only available to our memebers.The new skateboards are as exculsive as you can get. Join the Soleki experience..",
+        "price": 214.99,
+        "category": 8,
+        "rating": 4.5,
+        "image_url": "https://cdn.skatespain.com/media/catalog/product/cache/1/small_image/1000x/602f0fa2c1f0d1ba5e241f914e856ff9/c/r/crflow002-surfskate-flow-nemo-29_22.jpg",
+        "image": "new4.jpg"
+    }
 }]

@@ -57,7 +57,7 @@
 
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row pt-lg-2 d-none d-lg-flex">
-
+            {% if request.user.is_authenticated %}
             <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
@@ -73,12 +73,24 @@
                     </div>
                 </form>
             </div>
+            {% endif %}
+            {% if request.user.is_authenticated %}
             <div class="col-12 col-lg-6 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link " id="logo-a">
                     <img src="{% static 'img/logo.png' %}" id="header-logo" alt="soleki-logo">
                 </a>
 
             </div>
+            {% else %}
+            <div class="col-12 col-lg-2 my-auto py-1 py-lg-0 text-center text-lg-left">
+                <a href="{% url 'home' %}" class="nav-link main-logo-link " id="logo-a">
+                    <img src="{% static 'img/logo.png' %}" id="header-logo" alt="soleki-logo">
+                </a>
+
+            </div>
+            {% endif %}
+            {% if request.user.is_authenticated %}
+
             <div class="col-12 col-lg-3 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
@@ -120,6 +132,51 @@
                     </li>
                 </ul>
             </div>
+            {% else %}
+
+            <div class="col-12 col-lg-10 my-auto py-1 py-lg-0">
+                <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                    <li class="list-inline-item dropdown">
+                        <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <div class="text-center account-colour">
+                                <div><i class="fas fa-user fa-lg"></i></div>
+                                <p class="my-0">My Account</p>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                            {% if request.user.is_authenticated %}
+                            {% if request.user.is_superuser %}
+                            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                            {% endif %}
+                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                            {% else %}
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            {% endif %}
+                        </div>
+                    </li>
+                    <!--bag icon, css and grand total from bag/context.py-->
+                    <li class="list-inline-item">
+                        <a class="{% if grand_total %}text-warning font-weight-bold{% else %}account-colour{% endif %} nav-link"
+                            href="{% url 'view_bag' %}">
+                            <div class="text-center ">
+                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                <p class="my-0">
+                                    {% if grand_total %}
+                                    ${{ grand_total|floatformat:2 }}
+                                    {% else %}
+                                    $0.00
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            {% endif %}
+
         </div>
         <div class="row ">
             <nav class="navbar navbar-expand-lg navbar-light w-100">
