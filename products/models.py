@@ -1,6 +1,7 @@
 from django.db import models
 
-# This Code was taken from the Boutique Ado project with Code Institute and edited to suit this project!
+# This Code was taken from the Boutique Ado project with Code Institute,
+#  and edited to suit this project!
 
 
 class Category(models.Model):

@@ -2,6 +2,9 @@ from django import forms
 from .widgets import CustomClearableFileInput
 from .models import Product, Category
 
+# Code adapted from CI Boutique-ado project
+# could not fix  has no object memeber error
+
 
 class ProductForm(forms.ModelForm):
 

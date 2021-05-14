@@ -5,6 +5,8 @@ from django.dispatch import receiver
 
 from django_countries.fields import CountryField
 
+# Code adapted from CI Boutique-ado project
+
 
 class UserProfile(models.Model):
     """
