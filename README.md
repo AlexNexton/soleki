@@ -154,7 +154,7 @@ This project is my final project for the Code Institute's Full stack development
 
 #### **Colours** ####
 
-![Colour palette](static/readmeimg/soleki-coloour.png)
+![Colour palette](static/readmeimg/soleki-colour.png)
 
 [Back to content](#contents)
 
