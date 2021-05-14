@@ -1,4 +1,4 @@
-# ![Soleki](/media/logo.png) #
+# ![Soleki](/media/responsive.png) #
 
 [SOLEKI](https://soleki.herokuapp.com/) is an e-commerce website where clients, mainly those that skate or snowboard can come and buy various related products.
 
@@ -699,8 +699,9 @@ The *static* and *media files* are hosted in the [AWS S3 Bucket](https://aws.ama
 
 - [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material - in particular the Boutique Ado Django mini project
 - [Stack Overflow](https://stackoverflow.com/)
-- Former CI student's projects.
-- README template adapted from [Neringa Bickmore](https://github.com/neringabickmore/art-ial)
+- README template, ideas adapted from [Neringa Bickmore](https://github.com/neringabickmore/art-ial)
+- README template, ideas adapted from [Simon Vardy](https://github.com/simonjvardy)
+- README template, ideas adapted from my past projects too.
 
 
 [Back to content](#contents)
@@ -711,9 +712,8 @@ The *static* and *media files* are hosted in the [AWS S3 Bucket](https://aws.ama
 
 I'd like to say thank you to everyone who has supported me throughout this project:
 
-- 
-- Fellow CI Students and Tutors - to name a few: [Simon](https://github.com/jumboduck), [Karol](https://github.com/KarolSliwka), [Michael](https://github.com/mparkcode), [Igor](https://github.com/bravoalpha79), [Chris](https://github.com/ckz8780/)
-- 
--
+- My Family- thank you so much for everything!
+- The Slack community - you are without a doubt all heros!
+- And finally, a special thanks to my mother Caroline - you are my rock moms!!
 
 [Back to content](#contents)
