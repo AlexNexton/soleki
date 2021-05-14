@@ -4,8 +4,6 @@
 
 Soleki is an idea I have had for a skate company since I was a child. Here, people can come and buy skate and snow related products, checkout the skateteam and in the future upload their own footage and maybe join the team.
 
-![Site display on different screens](/wireframes/testing-images/responsive-design.jpg)
-
 ---
 
 ## Contents ##
@@ -22,8 +20,6 @@ Soleki is an idea I have had for a skate company since I was a child. Here, peop
     - [**Fonts**](#--fonts--)
     - [**Colours**](#--colours--)
 - [Wireframes](#wireframes)
-  - [**Site Map**](#--site-map--)
-  - [**Site Layout**](#--site-layout--)
 - [Information Architecture](#information-architecture)
   - [Database Choice](#database-choice)
   - [Database Modelling](#database-modelling)
@@ -89,11 +85,11 @@ This project is my final project for the Code Institute's Full stack development
 
 - As a user, I am able to easily navigate through the website without too much thought and find what I am looking for quickly.
 
-- As a user, I am able to contact the site owner using via a phone number or email address provided on the main page.
-
 - As a user, I am able to read a description about the products I am interested in (including as images, title etc)
 
 - As a user, I am able to a product to my shopping bag.
+
+- As a user I am  able to register.
 
 - As a user, I am able to change the content of my shopping bag before continuing to completion (add more or remove the products).
 
