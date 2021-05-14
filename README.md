@@ -160,17 +160,13 @@ This project is my final project for the Code Institute's Full stack development
 
 ## Wireframes ##
 
-### **Site Map** ###
-
-Firstly, I have created a site [map](/wireframes/site-map/sitemap.png) to enable me to clearly plan the site design before I started working on the wireframes. It has also helped me to visualize what apps I will need to create to make this project fit for purpose.
-
 ### **Site Layout** ###
 
-I designed my site moc-ups using [balsamiq wireframes](https://balsamiq.com/). I was focusing on defining the basic layout structure of the app and identifying how displays would change on different screen sizes such as [mobile](/wireframes/site-wireframes/gallery-buy.mobile.png), [tablet](/wireframes/site-wireframes/gallery-buy.tablet.png), and [desktop](/wireframes/site-wireframes/gallery-buy.desktop.png).
+I designed my site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 You can view all wireframes created for this project in [site wireframes](/wireframes/soleki-wf.pdf) folder.
 
-  **Please note, as I was developing the project, I have identified some weaknesses in the UX and therefore made the required changes. The deployed site looks somewhat different in comparison to the wireframes. These changes will allow the user to have a better experience and allow easier navigation. Some wireframes that are available to view may not be present in current features. This is due to time constraints and I may consider them for the future, therefore, leaving them. I have also added additional superuser features in the front-end that at the time of the site design didn't realize will be required. Wireframes of these features are not included due to time constraints. The design theme of the features is a close match to the overall site to ensure continuation and flow.*
+ - The wireframes are a rough draft of the final project as intended.
 
 [Back to content](#contents)
 
@@ -183,6 +179,8 @@ You can view all wireframes created for this project in [site wireframes](/wiref
 ### Database Modelling ###
 
 #### **Profile App** ####
+
+#### **Skateteam App** ####
 
 ##### Profile #####
 
@@ -427,19 +425,6 @@ Soleki's website is designed using five applications: `Home`, `Products`, `Profi
 
 
 # Future Features to Implement
-
-- **Image Hosting** 
-
-    Each image added to the recipes comes from a http: link, in the future I would love to make it so the user would be able to upload an image to the database.
-
--   **Profile Page**
-![Profile](static/readmeImg/profile-img.png)
-
-    - The Profile page currently allows users to upload an image but they are unable to save it. I would like to add this feature later.
-    - Also, I would like to make a profile page similar to one you might find on [facebook](www.facebook.com) where the user could design it to their taste and 'like' and/or 'favourite' other user's recipes.
-    - I would like to add a video platform where users could vlog their recipes and have others follow their content.
-
-
 
 
 ### Implemented Features ###
