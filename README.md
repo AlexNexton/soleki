@@ -356,6 +356,96 @@ Datetime | datetime | CharField | null=True, blank=True, max_length=20
 
 Soleki's website is designed using five applications: `Home`, `Products`, `Profiles`, `Skateteam`, `Bag`, and `Checkout`.
 
+### Individual Pages
+
+
+### Soleki Home
+![Landing page](static/readmeimg/homepage.png)
+
+- Landing page for non users
+
+### Soleki Home User
+![User Landing page](static/readmeimg/homepage-user.png)
+
+- Landing page for users
+
+### Register
+![Register](static/readmeimg/register.png)
+
+- This page contains a form where users may register. Above the form is a link to Sign in.
+
+### Login
+![Login](static/readmeimg/login.png)
+- This page contains a form where users may login. Above the form is a link to Sign up.
+
+### Logout
+![Sign out](static/readmeimg/logout.png)
+
+- Clicking 'Logout' ends a user session and redirects them to the 'Landing' page.
+
+### Products
+![Products](static/readmeimg/products.png)
+
+- This page contains some of the products on the site that users can purchase or browse through.
+
+### Product Detail
+![Product Deatial](static/readmeimg/p-describ.png)
+
+- This page contains a description of the product and a button to add it to the shopping bag.
+
+### Checkout
+![checkout](static/readmeimg/checkout.png)
+
+- This page contains the products chosen by the user/client and a form to fill out in order to recieve their purhcase.
+
+### Shopping Bag
+![shopping bag](static/readmeimg/shoppingbag.png)
+
+- This page contains the place where the products the user chose ready for purchase.
+
+### Skateteam
+![skateteam](static/readmeimg/skateteam.png)
+
+- This page contains soleki's skateteam, exclusively for registered users.
+
+### Profile
+![Profile](static/readmeimg/profile.png)
+
+- This page contains past products purchased and a saved form billing address.
+
+### Order infp
+![order](static/readmeimg/products.png)
+
+- This page contains the verification info after purchase.
+
+### Toast
+![toasts](static/readmeimg/toast.png)
+
+- This page shows and example of a toast once a user adds a product to the bag in this case.
+
+
+### Footer page
+![Footer](static/readmeimg/footer.png)
+
+- Thisphoto shows the footer, that is present on all pages.
+
+
+# Future Features to Implement
+
+- **Image Hosting** 
+
+    Each image added to the recipes comes from a http: link, in the future I would love to make it so the user would be able to upload an image to the database.
+
+-   **Profile Page**
+![Profile](static/readmeImg/profile-img.png)
+
+    - The Profile page currently allows users to upload an image but they are unable to save it. I would like to add this feature later.
+    - Also, I would like to make a profile page similar to one you might find on [facebook](www.facebook.com) where the user could design it to their taste and 'like' and/or 'favourite' other user's recipes.
+    - I would like to add a video platform where users could vlog their recipes and have others follow their content.
+
+
+
+
 ### Implemented Features ###
 
 - The site has **responsive design** when viewed on a mobile, tablet, and desktop.
