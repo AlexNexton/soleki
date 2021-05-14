@@ -427,7 +427,7 @@ Soleki's website is designed using five applications: `Home`, `Products`, `Profi
 ### Footer page
 ![Footer](static/readmeimg/footer.png)
 
-- Thisphoto shows the footer, that is present on all pages.
+- This photo shows the footer, that is present on all pages.
 
 
 # Future Features to Implement
