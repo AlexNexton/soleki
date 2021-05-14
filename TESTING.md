@@ -19,7 +19,6 @@
   - [User Stories Testing](#user-stories-testing)
 - [Bugs discovered](#bugs)
   - [Resolved bugs](#resolved-bugs)
-  - [Unsolved Bugs](#unsolved-bugs)
 
 
 ---
@@ -93,7 +92,16 @@ The following **validation services** and **linter** were used to check the vali
 
 - As a user, I am able to easily navigate through the website without too much thought and find what I am looking for quickly.
 
-    - Thanks to the navbar and quick links, moving around the website is effortless, especially once registerd where you get a search bar too.
+  - Click on all of the available links in the navbar. Assess if they are directing you to the page/section of the page you expect it.
+  - Try clicking on the navbar both on mobile and larger devices.
+  - Larger than medium screen size devices should have all navbar item displayed at all times.
+  - Small and medium screen size should have a collapsible navbar.
+  - All navbar items should change colour from white to light pink (tuscany) on hover on all screen sizes.
+  - If you haven't logged in, you should see `Login` on a navbar.
+  - If you have logged in, you should see `Profile` on a navbar instead of login, which expands to `Account` and `Logout`.
+  - If you are not a superuser, you should see `Home`, `Products`, `Skateboads`, `Snowboards`, `EnterSoleki` on a navbar.
+  - If you have items added to the bag, you should see a bag icon and a total amount.
+
 
 - As a user I am  able to register.
 
@@ -124,6 +132,7 @@ The following **validation services** and **linter** were used to check the vali
     2. Scroll down to the very bottom.
     3. Click Instagram.
     4. Here (if the site were real) you can view all of the websites merchandise.
+    5. When you hover on Quicklinks and Instagram they should change colour to green.
 
 
 
@@ -141,11 +150,5 @@ The following **validation services** and **linter** were used to check the vali
     - I realise I had not uploaded the photo to the s3 Bucket.
 - None of my app files in Skateteam where connecting to django. I tried everything I could think of but to no avail. I did not think I was going to solve this issue.
     - I went to slack and found the greatest comment ever written to date and this solved everything  - I did happy dance! ![order](static/readmeimg/happydance.png)
-
-
-#### Unsolved Bugs ####
-
-- When a user signs in and hits the back page they are brought back to the login page yet if they hit the forward key are still logged in.
-- Alternatively, if a user signs out but hits the back button at times they still have access to their profile.
 
 
