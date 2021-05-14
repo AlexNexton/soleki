@@ -1,6 +1,8 @@
 from django import forms
 from .models import Order
 
+# Code adapted from CI Boutique-ado project
+
 
 class OrderForm(forms.ModelForm):
     class Meta:

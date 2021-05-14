@@ -10,6 +10,11 @@ from profiles.models import UserProfile
 import json
 import time
 
+# refactoring the code here lead to this part,
+# of the app not working so I returned it to the way it was,
+# and this solved the problem
+
+
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
 
@@ -25,13 +30,13 @@ class StripeWH_Handler:
         body = render_to_string(
             'checkout/confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
-        
+
         send_mail(
             subject,
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
-        )        
+        )
 
     def handle_event(self, event):
         """

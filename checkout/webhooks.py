@@ -7,6 +7,10 @@ from checkout.webhook_handler import StripeWH_Handler
 
 import stripe
 
+# refactoring the code here lead to this part,
+# of the app not working so I returned it to the way it was,
+# and this solved the problem
+
 
 @require_POST
 @csrf_exempt

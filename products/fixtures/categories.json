@@ -12,13 +12,7 @@
         "name": "mens_snowboards",
         "friendly_name": "Men's SnowBoards"
     }
-}, {
-    "pk": 3,
-    "model": "products.category",
-    "fields": {
-        "name": "clearance",
-        "friendly_name": "Clearance"
-    }
+
 }, {
     "pk": 4,
     "model": "products.category",
