@@ -678,7 +678,7 @@ The *static* and *media files* are hosted in the [AWS S3 Bucket](https://aws.ama
 
 ### Code ideas ###
 
-- [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material - in particular the Boutique Ado Django mini project
+- [Code Institute](https://codeinstitute.net/full-stack-software-development-diploma/) Course material - in particular the code from the Boutique Ado Django mini project
 - [Stack Overflow](https://stackoverflow.com/)
 - README template, ideas adapted from [Neringa Bickmore](https://github.com/neringabickmore/art-ial)
 - README template, ideas adapted from [Simon Vardy](https://github.com/simonjvardy)
@@ -695,6 +695,8 @@ I'd like to say thank you to everyone who has supported me throughout this proje
 
 - My Family- thank you so much for everything!
 - The Slack community - you are without a doubt all heros!
+- Thank you Code Institute for everything!
+- A huge thank Student care, especailly to Alexander at Code Institute - you truely are an amazing human being!
 - And finally, a special thanks to my mother Caroline - you are my rock moms!!
 
 [Back to content](#contents)
